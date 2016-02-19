@@ -1,0 +1,24 @@
+[submodule "puppet/modules/puppetdb"]
+	path = puppet/modules/puppetdb
+	url = git@github.com:skyscrapers/puppetlabs-puppetdb.git
+[submodule "puppet/modules/puppet"]
+	path = puppet/modules/puppet
+	url = git@github.com:skyscrapers/puppet-puppet.git
+[submodule "puppet/modules/postgresql"]
+	path = puppet/modules/postgresql
+	url = git@github.com:skyscrapers/puppetlabs-postgresql.git
+[submodule "puppet/modules/apache"]
+	path = puppet/modules/apache
+	url = git@github.com:skyscrapers/puppetlabs-apache.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = git@github.com:skyscrapers/puppetlabs-stdlib.git
+[submodule "puppet/modules/inifile"]
+	path = puppet/modules/inifile
+	url = git@github.com:skyscrapers/puppetlabs-inifile.git
+[submodule "puppet/modules/apt"]
+	path = puppet/modules/apt
+	url = git@github.com:skyscrapers/puppetlabs-apt.git
+[submodule "puppet/modules/concat"]
+	path = puppet/modules/concat
+	url = git@github.com:skyscrapers/puppetlabs-concat.git
