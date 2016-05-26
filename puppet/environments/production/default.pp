@@ -7,7 +7,7 @@ node default {
   }
 
   class { 'puppetdb::globals':
-    version => '2.3.8-1puppetlabs1',
+    version => '4.1.0-1puppetlabs1',
   }
   class { 'puppetdb':
     listen_address      => '0.0.0.0',
