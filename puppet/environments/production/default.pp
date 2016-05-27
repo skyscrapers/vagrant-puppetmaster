@@ -10,13 +10,7 @@ node default {
     version => '4.1.0-1puppetlabs1',
   }
   class { 'puppetdb':
-    listen_address      => '0.0.0.0',
-    disable_ssl         => false,
-    ssl_set_cert_paths  => true,
-    ssl_dir             => '/etc/puppetdb/ssl',
-    ssl_cert_path       => '/etc/puppetdb/ssl/public.pem',
-    ssl_key_path        => '/etc/puppetdb/ssl/private.pem',
-    ssl_ca_cert_path    => '/etc/puppetdb/ssl/ca.pem'
+    manage_server => false
   }
   class { '::puppet':
      server                      => true,
