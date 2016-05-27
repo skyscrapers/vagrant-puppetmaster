@@ -21,6 +21,7 @@ node default {
   class { '::puppet':
      server                      => true,
      server_foreman              => false,
+     server_passenger            => false,
      server_reports              => 'puppetdb',
      server_storeconfigs_backend => 'puppetdb',
      server_external_nodes       => '',
