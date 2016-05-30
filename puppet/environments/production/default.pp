@@ -10,7 +10,7 @@ node default {
     version => '4.1.0-1puppetlabs1',
   }
   class { 'puppetdb':
-    manage_server => false
+    manage_dbserver => false
   }
   class { '::puppet':
      server                      => true,
