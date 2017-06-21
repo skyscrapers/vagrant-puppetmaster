@@ -7,7 +7,7 @@ node default {
   }
 
   class { 'puppetdb::globals':
-    version => '4.1.0-1puppetlabs1',
+    version => '4.4.0-1puppetlabs1',
   }
 
   class { 'puppetdb':
