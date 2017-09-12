@@ -16,6 +16,7 @@ node default {
     database_password  => 'pass',
     database_port      => '5432',
     manage_dbserver    => false,
+    manage_firewall    => false,
     manage_db          => false,
     listen_address     => '0.0.0.0',
     disable_ssl        => false,
